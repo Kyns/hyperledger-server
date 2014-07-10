@@ -27,7 +27,7 @@ You can generate RSA keypairs in Ruby:
     require 'openssl'
     key = OpenSSL::PKey::RSA.new(2048)
     key.to_pem # Private key
-    key.publci_key.to_pem # Public key
+    key.public_key.to_pem # Public key
 
 ## License
 
